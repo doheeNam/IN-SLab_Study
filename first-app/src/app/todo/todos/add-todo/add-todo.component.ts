@@ -10,8 +10,12 @@ import { EventEmitter } from '@angular/core';
   styles: [`
     :host{
       dispaly: block;
-      padding: 16px;
+      padding: 16px 16px 16px 10px;
       background-color: white;
+    }
+
+    div{
+      padding: 10px;
     }
 
     input{
@@ -29,7 +33,10 @@ import { EventEmitter } from '@angular/core';
       height: 24px;
       border-radius: 24px;
       color: white;
-      
+      font-size: 16px;
+      line-height: 17px;
+      border: 1px solid dimgray;
+      background-color: darkblue;
     }
   `]
 })

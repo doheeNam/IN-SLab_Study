@@ -28,8 +28,8 @@ import { preserveWhitespacesDefault } from '@angular/compiler';
       width: 20px;
       height: 20px;
       border-radius: 20px;
-      top: -6px;
-      left: -8px;
+      // top: -6px;
+      // left: -8px;
       border: 1px solid dimgray;
       background-color: dimgray;
     }
@@ -42,8 +42,8 @@ import { preserveWhitespacesDefault } from '@angular/compiler';
       background-color: white;
       border-radius: 20px;
       postion: absolute;
-      top: -6px;
-      left: -8px;
+      // top: -6px;
+      // left: -8px;
       border: 1px solid darkgray;
     }
 
