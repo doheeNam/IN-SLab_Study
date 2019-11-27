@@ -1,3 +1,3 @@
 ##README.md
 
--Angular Study
+-IN'SLab Study
