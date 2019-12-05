@@ -23,7 +23,12 @@ export class HeroSearchComponent implements OnInit {
     this.searchTerms.next(term);
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.heroes$ = this.searchTerms.pipe(
+      debounceTime(300),
+      distinctUntilChanged(),
+      switchMap((term: string)=>this.heroService.searchHeroes(term)),
+    );
   }
 
 }
