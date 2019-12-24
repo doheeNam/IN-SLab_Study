@@ -1,0 +1,18 @@
+<form class="example-form">
+    <mat-form-field class="formfield">
+        <input matInput placeholder="이름">
+    </mat-form-field>
+
+    <mat-form-field class="formfield">
+        <input matInput placeholder="나이">
+    </mat-form-field>
+
+    <mat-form-field class="formfield">
+        <mat-select placeholder="성별">
+            <mat-option value="F">여자</mat-option>
+            <mat-option value="M">남자</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="clickSearch(datalist)">검색</button>
+    <!-- <app-list [userlist]="users"></app-list> -->
+</form>

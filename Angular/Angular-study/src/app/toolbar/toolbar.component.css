@@ -1,0 +1,16 @@
+a, span{
+  padding: 0 8px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: gainsboro
+}
+a:active{
+  color: yellow;
+}
+a.on{
+  color: yellowgreen;
+}
