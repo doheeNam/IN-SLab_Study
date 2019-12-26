@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from '../user';
 
 @Component({
   selector: 'app-manage',
@@ -8,6 +7,7 @@ import { User } from '../user';
 })
 export class ManageComponent implements OnInit {
 
+  inputdata;
 
   constructor() { }
 
@@ -15,7 +15,7 @@ export class ManageComponent implements OnInit {
   }
 
   outdata(datalist:any){
-    this.outdata = datalist;
+    this.inputdata = datalist;
   }
 
 }

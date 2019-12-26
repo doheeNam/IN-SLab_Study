@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { User } from "../user";
 
 @Component({
   selector: 'app-list',
@@ -8,7 +7,7 @@ import { User } from "../user";
 })
 export class ListComponent implements OnInit {
 
-  @Input() userdata: User;
+  @Input() userdata: string[];
 
   displayedColumns: string[] = ['name', 'age', 'gender'];
 
